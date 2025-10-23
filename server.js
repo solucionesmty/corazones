@@ -17,8 +17,8 @@ const rooms = new Map();
 
 // (OPCIONAL) Restringe orígenes para WS (sustituye con tu dominio de producción)
 const ALLOWED_ORIGINS = new Set([
-  "https://tudominio.com",      // ← cámbialo por el tuyo
-  "https://www.tudominio.com"
+  "https://hombresgradio.com",      // ← cámbialo por el tuyo
+  "https://www.hombresgradio.com"
 ]);
 
 function joinRoom(ws, room) {
@@ -108,3 +108,4 @@ setInterval(() => {
 server.listen(PORT, () => {
   console.log("WS listening on", PORT);
 });
+
